@@ -1,0 +1,113 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+.contact-us{
+    background-color: rgb(12, 11, 11);
+    padding-top: 200px;
+    padding-left: 60px;
+}
+.footer-section {
+    background-color: rgb(12, 11, 11);
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.complaint-form {
+    flex: 1;
+    max-width: 400px;
+}
+
+.complaint-form h3{
+    color: #ffc107;
+}
+
+.contact-info {
+    flex: 1;
+    text-align: center;
+}
+
+.contacts{
+    text-align: center;
+    padding: 30px;
+}
+.center-prof{
+    display: flex;
+    justify-content: space-around;
+}
+.prof-pic{
+    width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        margin-bottom: 10px;
+}
+
+.prof-pic h1{
+    color: rgb(169, 169, 169)
+}
+.contact-item h1{
+
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.about {
+    color: #ffc107;
+}
+
+.desc{
+    color:rgb(169, 169, 169);
+    margin-bottom: 30px;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+textarea,
+input {
+    margin-bottom: 10px;
+    padding: 8px;
+}
+
+button {
+    background-color: #27ae60;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+.contact-info h3{
+    color:#ffc107;
+    
+}
+
+.icons{
+    margin: 20px;
+    color: #ffc107;
+    font-size: 20px;
+}
+.iconsloc {
+    margin: 9px;
+    color: #ffc107;
+    font-size: 25px;
+}
+.iconsdev{
+    margin-right: 20px;
+        color: #ffc107;
+        font-size: 30px;
+}
+
+.contact-info{
+    background-color: rgb(12, 11, 11);
+}
+
+.prof_heading{
+
+    color: rgb(169, 169, 169);
+}

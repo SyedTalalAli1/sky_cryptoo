@@ -1,0 +1,111 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+.about-us-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color:rgb(12, 11, 11);
+}
+
+.about-us-header {
+    margin-bottom: 10px;
+    text-align: center;
+    margin-top: 30px;
+    color: rgb(157, 155, 155);
+}
+
+.aboutus-title{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.text-color-about{
+    color:#ffc107;
+    font-family: 'Roboto', sans-serif;
+}
+
+.about-us-image img{
+    margin-left: 200px;
+    height: 300px;
+}
+
+.about-us-image {
+    position: relative;
+    margin-top: 10px;
+}
+
+.about-us-image p{
+    text-align: left;
+    color: rgb(157, 155, 155);
+}
+
+.image-details {
+    margin-left: 140px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+.about-us-header .title-head{
+    font-size: 17px;
+    color: white;
+}
+.about-us-links {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.about-us-links a {
+    text-decoration: none;
+    color: #ffc107;
+    font-weight: bold;
+    padding: 10px;
+    border: 2px solid #ffc107;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.about-us-links a:hover {
+    background-color: #ffc107;
+    color: white;
+}
+
+.about-us-main-content {
+
+    margin-top: 50px;
+    padding-top: 50px;
+    margin-left: 200px;
+    border-radius: 10px;
+    width: 70%;
+    height: 200px;
+    border: 2px solid white;
+    text-align: center;
+    color: rgb(157, 155, 155);
+}
+
+.about-us-main-content h2{
+    color: #ffc107;
+    text-align: center;
+}
+
+.about-us-main-content p {
+    justify-content: center;
+}
+
+#about-btn {
+    height: 50px;
+    color: #212529;
+    background-color: transparent;
+    border-color: white;
+    color: #ffc107 !important;
+
+
+}
+
+#about-btn:hover {
+    color: white !important;
+    background-color: #ffc107;
+}

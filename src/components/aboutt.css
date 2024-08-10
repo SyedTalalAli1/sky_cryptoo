@@ -1,0 +1,131 @@
+.about-us-page{
+    background-color: rgb(12, 11, 11);
+    padding-top: 30px;
+}
+
+.title {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.ab-header{
+    text-align: center;
+    margin-top: 30px;
+        color: rgb(157, 155, 155);
+}
+
+.text-color-about {
+    color: #ffc107;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.image img {
+    margin-left: 200px;
+    height: 300px;
+}
+
+.details {
+    margin-left: 140px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.image p {
+    text-align: left;
+    color: rgb(157, 155, 155);
+}
+
+.main-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 500px;
+}
+.main-container h4{
+    color: white;
+    position: absolute;
+    top: 76%;
+    left: 580px;
+    font-size: 70px;
+}
+
+.text-color-about{
+    color: #ffc107;
+}
+.data-container {
+    width: 250px;
+    height: 150px;
+    background-color:rgb(12, 11, 11);
+    color: #ffc107;
+    text-align: center;
+    padding: 20px;
+    margin: 5px;
+}
+
+.data-container h3{
+    color: rgb(169, 169, 169);
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.register-button {
+    padding: 15px;
+    position: absolute;
+    top: 125%;
+    right:46%;
+    background-color: #ffc107;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.experts-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.expert-container {
+    text-align: center;
+    margin-top: 85px;
+}
+
+.expert-container img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.expert-container h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+.experts-section h5 {
+    color: white;
+        position: absolute;
+        top: 140%;
+        left: 580px;
+        font-size: 70px;
+}
+
+.expert-container p {
+    font-size: 14px;
+    color: rgb(172, 169, 169);
+    font-family: 'Times New Roman', Times, serif;
+}

@@ -46,7 +46,7 @@ class Aboutt extends React.Component {
 
         <div className="content">
           <div className="image">
-            <img className="image" src={Img1} alt="About Us Image" />
+            <img className="image" src={Img1}  />
             <div className="details">
               <h2>About Sky Crypto</h2>
               <p>

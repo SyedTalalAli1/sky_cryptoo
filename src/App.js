@@ -6,7 +6,6 @@ import About from './pages/about';
 import Market from './pages/market';
 import ContactUs from './pages/contactus';
 import LoginForm from './components/login';
-import Register from './components/register';
 
 function App() {
   return (
